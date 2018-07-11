@@ -1,0 +1,19 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "A Node.js RESTful API Tutorial Project (Build a simple shop API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phuc Nguyen Minh",
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
