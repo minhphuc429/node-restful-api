@@ -4,7 +4,8 @@
   "description": "A Node.js RESTful API Tutorial Project (Build a simple shop API)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "author": "Phuc Nguyen Minh",
   "license": "ISC",
@@ -15,5 +16,9 @@
   ],
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.1"
   }
 }
